@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>HR Pointer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="public/HRpointer.css">
+</head>
+<body>
+	<div class="full-dashboard">
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="container-left">
+					<div class="header-left header">
+						<a href ="#">HR Pointer</a>
+					</div>
+					<nav class="navbar">
+						<div class="container-fluid">
+							<ul class="nav flex-column outer-nav">
+								<li class="active">
+									<a href="#">
+										<i class="fa fa-tachometer" aria-hidden="true"></i>
+										Dashboard
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-clock-o" aria-hidden="true"></i>
+										Time Logs
+									</a>
+								</li>
+								<li>
+									<a class="toggle_link" rel="showonclick1">
+										<i class="fa fa-calendar-o" aria-hidden="true"></i>
+										Leaves
+										<span class="arrow-left">
+											<i class="fa fa-caret-left" aria-hidden="true"></i>
+										</span>
+										<ul class="showonclick nav" id="showonclick1">
+											<li><a href="#">Apply Leaves</a></li>
+										</ul>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-file-text" aria-hidden="true"></i>Project
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-fighter-jet" aria-hidden="true"></i>Holidays
+									</a>
+								</li>
+								<li>
+									<a class="toggle_link" rel="showonclick2">
+										<i class="fa fa-file-text" aria-hidden="true"></i>Recruitment
+										<span class="arrow-left">
+											<i class="fa fa-caret-left" aria-hidden="true"></i>
+										</span>
+										<ul class="showonclick nav" id="showonclick2">
+											<li><a href="#">My Referals</a></li>
+											<li><a href="#">My Interviews</a></li>
+										</ul>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			
+			<div class="col-lg-10 col-md-10">
+				<div class="container-right">
+					<div class="header-right header light-blue">
+						<button class="btn btn_toggle">
+							<div class="icon-bar">
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</div>
+						</button>
+						<div class="emp-detail">
+							<div class="emp-id">
+							</div>
+							<div class="dropdown">
+								<button class="btn">
+									<div class="icon-setting">
+										<span>EMP000089</span>
+										<i class="fa fa-cog" aria-hidden="true"></i>
+									</div>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="body-right">
+						<div class="dashboard-title">DASHBOARD</div>
+						<div class="container-fluid">
+							<div class="wrapper">
+								<div class="wrapper-title light-gray">Employee Summary</div>
+								<div class="box-flex">
+									<div class="wrapper-box light-blue">
+										<div class="icon-left">
+											<i class="fa fa-file-text-o" aria-hidden="true"></i>
+										</div>
+										<div class="content-right">
+											<div class="number-right">5</div>
+											<div class="description">Total Projects</div>
+										</div>
+									</div>
+									<div class="wrapper-box light-blue">
+										<div class="icon-left">
+											<i class="fa fa-users" aria-hidden="true"></i>
+										</div>
+										<div class="content-right">
+											<div class="number-right">0</div>
+											<div class="description">Absents of this Month</div>
+										</div>
+									</div>
+									<div class="wrapper-box light-blue">
+										<div class="icon-left">
+											<i class="fa fa-clock-o" aria-hidden="true"></i>
+										</div>
+										<div class="content-right">
+											<div class="number-right">0</div>
+											<div class="description">Timelog Hours of Today</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">Copyright 
+					<span class="light-gray">&copy 2018 HR POINTER</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/
+bootstrap.min.js"></script>
+<script src="public/pointer.js"></script>
+</body>
+</html>

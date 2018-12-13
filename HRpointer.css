@@ -1,0 +1,134 @@
+*,.row{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+    padding: 15px;
+    font-size: 25px;
+}
+.header-left{
+	text-align: center;
+	background-color: #3466b3;
+}
+.header-left a{
+	color: white;
+}
+a:hover,a:focus{
+	text-decoration: none;
+}
+.light-blue{
+	 background-color: #719acd;
+}
+.emp-detail {
+    float: right;
+}
+.col-lg-2,.col-lg-10{
+    height: 100vh;
+    overflow: auto;
+    padding: 0;
+}
+.col-lg-2{
+	box-shadow: 1px 1px 1px lightgray;
+}
+.outer-nav li{
+    padding-top: 10px;
+}
+.nav li a,.toggle_link{
+	font-size: 16px;
+    color: #777777;
+    transition: 0.5s;
+}
+.light-gray{
+	color: #a2a2a2; 
+}
+.nav li a:hover{
+	color:#3466b3;
+	background: none; 
+	transition: 0.5s;
+}
+.nav li.active a,.nav li a:active,.nav li a:focus{
+	background-color:#3466b3;
+	color: white;
+	border-radius: 4px; 
+}
+.showonclick{
+	display: none;
+}
+span.arrow-left {
+    float: right;
+}
+.nav li a .fa{
+	padding-right: 10px;
+}
+
+/*----Right Side Body Container starts----*/
+.body-right {
+    background-color: whitesmoke;
+    height: 82vh;
+    overflow: hidden;
+}
+.btn{
+	background: none;
+	color: white;
+}
+.btn:hover,.btn:focus{
+	background: none;
+	color: white;
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+.icon-setting{
+	font-size: 20px;
+}
+.dashboard-title {
+    font-size: 18px;
+   	color: #8b8b8b;
+    padding: 15px;
+}
+.wrapper {
+    background-color: white;
+    margin: 15px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+.wrapper-title {
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.box-flex{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.wrapper-box{
+	width: 31%;
+    color: white;
+    border-radius: 4px;
+}
+.icon-left {
+    float: left;
+    opacity: 0.4;
+    height: 90px;
+}
+.icon-left .fa{
+	font-size: 100px;
+    margin-left: -20px;
+    margin-top: 15px;
+}
+.content-right {
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+}
+.number-right {
+    font-size: 35px;
+    text-align: right;
+}
+.footer {
+	border-top: 1px solid lightgray;
+    padding: 20px;
+    text-align: center;
+}

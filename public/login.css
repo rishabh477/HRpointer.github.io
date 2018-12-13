@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.login{
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+	background-color: whitesmoke;
+}
+.form-container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 25%;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+}
+.form-container p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.title{
+	color: #5c7bb9;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
+form{
+	padding-top: 50px;
+}
+.form-control{
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	box-shadow: none;
+}
+.btn-block{
+	background-color: #5c7bb9;
+	color: white;
+}
